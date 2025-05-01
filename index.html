@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavScript</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mini calculette</h1>
+    <input type="number" id="nombre1" placeholder="Entrez le premier nombre"> 
+    <input type="number" id="nombre2" placeholder="Entrez le deuxime nombre">
+
+    <select  id="operation">
+        <option value="+">Addition (+)</option>
+        <option value="-">Soustracion (-)</option>
+        <option value="*">multiplication (*)</option>
+        <option value="/">division (/)</option>
+        
+    </select>
+
+    <button id="calculer" onclick="calcul()">Calculer</button>
+
+    <p id="resultat"></p>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
